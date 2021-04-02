@@ -4,6 +4,7 @@
 
 <p>Vamos a averiguar los puertos por los que escucha. Podemos usar el comando inspect</p>
 <p>Por supuesto, lo más rápido es comprobar la documentación de DockerHub para averiguarlo, donde además normalmente tenemos ejemplos: <strong>docker inspect --format='{{.Config.ExposedPorts}}' mongo</strong></p>
+
 ```
   docker run hello-world
 ```
