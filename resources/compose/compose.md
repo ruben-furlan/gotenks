@@ -1,6 +1,14 @@
 <div style="vertical-aligh: center;"> 
 
 # Docker Compose 
+<p>Docker Compose es una herramienta que permite simplificar el uso de Docker. A partir de archivos YAML es mas sencillo crear contendores, conectarlos, habilitar puertos, volumenes, etc. Aquí resumimos algunos tips.<p>
+<p>Con Compose puedes crear diferentes contenedores y al mismo tiempo, en cada contenedor, diferentes servicios, unirlos a un volúmen común, iniciarlos y apagarlos, etc. Es un componente fundamental para poder construir aplicaciones y microservicios.</p>
+<p>En vez de utilizar Docker via una serie inmemorizable de comandos bash y scripts, Docker Compose te permite mediante archivos YAML para poder instruir al Docker Engine a realizar tareas, programaticamente. Y esta es la clave, la facilidad para dar una serie de instrucciones, y luego repetirlas en diferentes ambientes.
+
+
+ [documentacion] - oficial
+
+
 <p>es un siguiente paso en la funcionalidad y característica dentro de docker:</p>
 <p>una de las características de docker es el concepto de micro-servicios.</p>
 <p>distintos contenedores que ofrecen distintas funcionalidades para micro-servicios</p>
@@ -16,11 +24,12 @@
 <p>Contenedor mongodb</p>
 
 
+
 ## Instalar
 
 <p>no viene instalador por defecto, pero en Windows suele venir instalado.</p>
 
- [documentacion]
+ [instalar]
    
 docker descarga desde github una version de docker compose.[descargar].
   
@@ -244,7 +253,9 @@ docker-compose -p nombrenuevo ps
 ```
 
 
-   [documentacion]: <https://docs.docker.com/compose/install/>
+[//]: #
+   [documentacion]: <https://docs.docker.com/compose/>
+   [instalar]: <https://docs.docker.com/compose/install/>
    [descargar]:<https://github.com/docker/compose/releases>
 </div>
 

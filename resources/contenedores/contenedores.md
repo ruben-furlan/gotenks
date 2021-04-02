@@ -2,6 +2,10 @@
 
 # Contenedores 
 
+<p> La idea detrás de Docker es crear contenedores ligeros y portables para las aplicaciones software que puedan ejecutarse en cualquier máquina con Docker instalado, independientemente del sistema operativo que la máquina tenga por debajo, facilitando así también los despliegues.</p>
+  
+  [documentacion] - oficial
+
 ## Arrancar y parar los servicios de Docker
 
 <p>Arrancarlo ahora con SYSTEMCTL: </p>
@@ -78,5 +82,9 @@
 ```
   docker ps -a -f name=davinci
  ```
+
+
+[//]: #
+   [documentacion]: <https://docs.docker.com/engine/reference/commandline/container/>
 
 </div>

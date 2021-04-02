@@ -11,6 +11,9 @@
                                       cada worker se comunica con cada mánager todo el cluster funciona de una manera compartida
 </p>
 
+
+ [documentacion] - oficial
+
 ## servicios en swarm
 
 <p>Cuando desplegamos una imagen en el docker Engine se crea un servicio, un servicio identifica tareas en el contexto de una aplicación, por ejemplo un servidor web, una Base de datos, etc.. siempre debemos indicar la imagen a usar para crear los contenedores y que comandos lanzar dentro</p>
@@ -134,6 +137,10 @@ borrar un servicio:
 - docker service ls-> lo mismo puede ver cosas viejas mientras procesa
 esto es re escalar y borrar servicios.
  ```
+
+
+[//]: #
+   [documentacion]: <https://docs.docker.com/engine/swarm/>
 
 </div>
 

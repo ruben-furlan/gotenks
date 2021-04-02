@@ -1,6 +1,10 @@
 <div style="vertical-aligh: center;"> 
 
 # Imagenes 
+<p>Las imagenes Docker son plantillas (que incluyen una aplicación, los binarios y las librerias necesarias) que se utilizan para construir contenedores Docker y ejecutarlos (los contenedores ejecutarán una imagen previamente compilada). También podemos decir que las imagenes Docker son instancias de un contenedor.</p>
+
+  [documentacion] - oficial
+
 - FROM--> ubunto --> PADRE 
  - RUN --> apt-get update comando que quiero ejecutar 
  - RUN --> apt-get install -y python todos los comando tiene que ser automáticos (no interactivos) </li>
@@ -313,6 +317,11 @@ CMD /datos1/entrypoint.sh
 #ENTRYPOINT["/bin/bash"]
 
 ```
+
+
+[//]: #
+   [documentacion]: <https://docs.docker.com/engine/reference/commandline/images/>
+
 
 </div>
 
